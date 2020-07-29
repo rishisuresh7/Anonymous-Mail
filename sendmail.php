@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
 	require 'PHPMailer/PHPMailerAutoload.php';
 	$senemail = $_POST['sender'];
@@ -20,3 +22,5 @@
 		location.replace("index.html");
 	</script>';
 ?>
+</body>
+</html>
